@@ -11188,6 +11188,26 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #20c997;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #20c997;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(32, 201, 151, 0.95), rgba(25, 135, 84, 0.95));
 }
@@ -11244,6 +11264,25 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.companies {
+  padding: 0 0 5rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.companies__logo-box img {
+  height: 100%;
+  filter: grayscale(120);
+}
+.companies__logo-box img:hover {
+  filter: grayscale(0);
 }
 
 /*# sourceMappingURL=style.css.map */
